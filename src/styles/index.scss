@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter.ttf');
+}
+
+@import 'variables';
+@import 'scaffolding';
+
+h1{
+	color: white;
+}
+
+body{
+	background-color: red;
+}
