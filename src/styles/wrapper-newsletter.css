@@ -1,0 +1,67 @@
+.wrapper {
+    height: 100vh;
+}
+
+.newsletter__content {
+    max-width: 650px;
+    background-color: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem .5rem;
+    text-align: center;
+}
+
+.newsletter__content h1 {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 67px;
+    text-align: center;
+    color: #30233D;
+    margin-bottom: 25px;
+}
+
+.newsletter__content p {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #776C82;
+    margin-bottom: 45px;
+}
+
+.form-input {
+    max-width: 650px;
+}
+
+input {
+    border: none;
+    width: 40%;
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.subscribe-btn {
+    padding: .8rem 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12.6px;
+    line-height: 26px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #F61067;
+}

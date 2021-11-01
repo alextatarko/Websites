@@ -1,14 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
+    <title>%= htmlWebpackPlugin.options.title %</title>
 
-  <body>
-    <h1>Test</h1>
-  </body>
+    <link rel="stylesheet" href="../src/styles/index.scss">
+    <link rel="stylesheet" href="../src/styles/wrapper-newsletter.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- swiper -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> -->
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__top">
+                    <div class="logo">
+                        <a href="" class="logo">Studio</a>
+                    </div>
+                    <nav class="menu">
+
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Services</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">Work</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="" class="menu__link">About</a>
+                            </li>
+
+                        </ul>
+
+
+                    </nav>
+                    <div class="login">
+                        <img class="login__img" src="../src/images/Vector.png" alt="login img">
+                        <div class="phone">
+                            <a href="tell:+01666693456" class="phone">(01) 666 - 693 - 456</a>
+                        </div>
+
+                        <button class="menu-btn">
+                          <span></span>
+                      </button>
+
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="header__content">
+                    <div class="header__subtext">
+                        <p>What we do?</p>
+                    </div>
+                    <h1 class="header__title">We grow<br><span>
+                          great business</span>
+                    </h1>
+
+
+                </div>
+
+                <div class="scroll">
+                    <p>Scroll to see more</p>
+
+                    <img class="scroll__img" src="../src/images/scroll-button.jpg" alt="scroll img">
+
+
+                </div>
+
+                <div class="subheader">
+                    <p>Velit laoreet id donec ultrices. Ut lectus arcu bibendum varius.</p>
+                    <div class="subheader__button">
+                        <img class="subheader__img" src="../src/images/arrow-button.png" alt="subheader img">
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="about">
+            <div class="container">
+
+                <div class="about__item">
+                    <img src="../src/images/intro-girl.jpg" alt="intro-girl" class="about__img">
+                    <div class="about__content">
+                        <h5 class="about__content-title">
+                            Intro
+                        </h5>
+                        <h2 class="about__content-subtitle">
+                            Our future
+                        </h2>
+                        <div class="about__content-text">
+                            <p>
+                                Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
+                            </p>
+
+                        </div>
+
+                        <div class="about__content-subtext">
+                            <p>
+                                By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver.
+                            </p>
+
+                        </div>
+
+                        <button class="button">
+                          <p>Learn more</p>
+                      </button>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="about__item">
+                    <img src="../src/images/features-img.jpg" alt="intro-girl" class="about__img">
+                    <div class="about__content">
+                        <div class="about__content-bg">
+
+                            <h5 class="about__content-title2">
+                                Benefits
+                            </h5>
+                            <h2 class="about__content-subtitle2">
+                                Shaping the future
+                            </h2>
+                            <div class="about__content-text2">
+                                <p>
+                                    Eget nunc scelerisque viverra mauris in aliquam. Dignissim sodales ut eu sem integer vitae. Libero nunc consequat interdum varius.
+                                </p>
+
+                            </div>
+
+                            <div class="about__content-subtext2">
+                                <p>Magna sit amet purus gravida. Sit amet porttitor eget dolor morbi non.
+                                </p>
+
+                                <p>
+                                    Lectus vestibulum mattis ullamcorper velit sed ullamcorper.
+                                </p>
+
+                                <p>
+                                    Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Dui faucibus in ornare quam viverra.
+                                </p>
+                                <p>
+                                    Posuere ac ut consequat semper viverra.
+                                </p>
+
+                            </div>
+
+                            <button class="button-features">
+                              <p>Learn more</p>
+                          </button>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- SWIPER SLIDER -->
+                    <!-- <div class="swiper">
+                      Additional required wrapper 
+                  <div class="swiper-wrapper">
+                       Slides 
+                      <div class="swiper-slide">
+                          <img src="https://source.unsplash.com/gKk9rpyDryU">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="https://source.unsplash.com/VFGEhLznjPU">
+                      </div>
+                      <div class="swiper-slide">
+                          <img src="https://source.unsplash.com/InR-EhiO_js">
+                      </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+              </div> -->
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="wrapper">
+            <form action="#" class="newsletter__content">
+                <div class="container">
+
+                    <h1>Subscribe to our newsletter</h1>
+                    <p>Cras pulvinar mattis nunc sed blandit.</p>
+                </div>
+                <div class="form-input">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Enter email">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <div class="footer__text">
+                    <h1>Lopper</h1>
+                    <p>Eu augue ut lectus arcu bibendum at.</p>
+                    <!-- <h4>© 2019 Lopper by mariuszdaniel. All right reserved.</h4> -->
+
+                </div>
+
+                <div class="column">
+                    <h3>Menu</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Home</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Services</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">News</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Gallery</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3>Services</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Lorem</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Ipsum</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Dolor</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">Sit Amet</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3>Contact us</h3>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">contact@lop.com</a>
+                        </li>
+                        <li class="footer__menu-item"><a href="#" class="footer__menu-link">856-693-456</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <h3>Follow us</h3>
+                    <ul class="footer__menu-social">
+                        <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-instagram"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-youtube"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+
+
+
+
+</body>
+
 </html>
