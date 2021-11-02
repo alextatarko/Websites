@@ -1,0 +1,49 @@
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    margin-right: 30px;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    padding: 6px;
+}
+
+.menu__link:hover {
+    background-size: 100% 2px;
+    color: #F61067;
+}
+
+.menu__link:focus {
+    background-size: 100% 2px;
+}
+
+.login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__img {
+    background-color: transparent;
+    padding-right: 18px;
+}
+
+.phone {
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14.4px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}

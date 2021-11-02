@@ -1,13 +1,13 @@
 @import 'variables';
 @import 'scaffolding';
-
 // components
+@import '../components/header/header.scss';
+@import '../components/header-menu/header-menu.scss';
+@import '../components/footer/footer.scss';
+@import '../components/footer-menu/footer-menu.scss';
 @import '../components/slider/slider';
 @import '../components/button/button';
-
-
-// old styles
-@import './old_style.scss';
-@import './old_wrapper-newsletter.scss';
-
+@import '../components/fonts/fonts.scss';
+@import '../components/newsletter/wrapper-newsletter.scss';
+@import '../components/scroll/scroll.scss';
 @import './sections.scss';

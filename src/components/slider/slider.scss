@@ -1,61 +1,55 @@
-.swiper-container{
-	width: 460px;
-	position: absolute;
-	top: 50%;
-	right: 0;
-	color: $purple;
-	transform: translateY( -50% );
+.swiper-container {
+    width: 460px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    color: $purple;
+    transform: translateY( -50%);
 }
 
-.swiper{
-	&.swiper-custom-styling{
-		padding-bottom: 100px;
-	}
-
-	.swiper-wrapper{
-
-		.swiper-slide{
-			height: 612px;
-			display: flex;
-			img{
-				height: 100%;
-				width: 100%;
-				object-fit: cover;
-			}
-		}
-	}
-
-	.swiper-controls{
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		display: flex;
-	}
-
-
-	// buttons
-	.swiper-buttons{
-		display: flex;
-		.swiper-button-prev{
-			cursor: pointer;
-			margin-right: 20px;
-			&::after{
-				display: none;
-			}
-		}
-
-		.swiper-button-next{
-			cursor: pointer;
-			&::after{
-				display: none;
-			}
-		}
-	}
-
-	// pagination 
-	.swiper-pagination{
-		display: flex;
-		align-items: center;
-		margin-right: 50px;
-	}
+.swiper {
+    &.swiper-custom-styling {
+        padding-bottom: 100px;
+    }
+    .swiper-wrapper {
+        // slide
+        .swiper-slide {
+            height: 612px;
+            display: flex;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .swiper-controls {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        display: flex;
+    }
+    // buttons
+    .swiper-buttons {
+        display: flex;
+        .swiper-button-prev {
+            cursor: pointer;
+            margin-right: 20px;
+            &::after {
+                display: none;
+            }
+        }
+        .swiper-button-next {
+            cursor: pointer;
+            &::after {
+                display: none;
+            }
+        }
+    }
+    // pagination 
+    .swiper-pagination {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+    }
 }
