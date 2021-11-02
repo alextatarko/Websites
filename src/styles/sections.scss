@@ -1,0 +1,24 @@
+section{
+	.container{
+		position: relative;
+	}
+}
+
+section.with-slider{
+	position: relative;
+	
+	.bg{
+		position: absolute;
+		background-color: #30124E;
+		left: 0;
+		width: 60%;
+		height: 100%;
+	}
+
+	.columns{
+		padding: 150px 0 150px;
+		.column{
+			width: 30%;
+		}
+	}
+}

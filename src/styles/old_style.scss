@@ -81,7 +81,7 @@ li {
 }
 
 .header {
-    background-image: url(../images/header-bg.jpg);
+    background-image: url(../../public/images/header-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -253,9 +253,9 @@ li {
     flex-direction: row-reverse;
 }
 
-.about__item img {
-    margin-top: 145px;
-}
+// .about__item img {
+//     margin-top: 145px;
+// }
 
 .about__content-title {
     font-style: normal;
@@ -339,20 +339,6 @@ li {
     margin-left: 150px;
 }
 
-.button {
-    background-color: #F61067;
-    border: none;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px 2px;
-    width: 197px;
-    cursor: pointer;
-    border-radius: 36px;
-    margin-top: 55px;
-}
 
 .button-features {
     background-color: #F61067;
@@ -370,9 +356,8 @@ li {
     margin-left: 150px;
 }
 
-.button:hover {
-    transition: 1s ease-in-out;
-    background: #5E239D;
+.button-with-padding{
+	padding: 20px;
 }
 
 .button p {
@@ -406,7 +391,7 @@ li {
     width: 999px;
     height: 1008px;
     left: 0px;
-    background-image: url(../images/features-bg.jpg);
+    background-image: url(../../public/images/features-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

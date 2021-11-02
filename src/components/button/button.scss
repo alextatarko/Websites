@@ -1,5 +1,22 @@
-a, button{
-	&.button{
-		background-color: $pink;
+a.button, button{
+	background-color: $pink;
+	border-radius: 36px;
+	background-color: #F61067;
+	border: none;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px;
+	width: 197px;
+	cursor: pointer;
+	border-radius: 36px;
+	margin-top: 55px;
+	transition: 0.4s ease-in-out;
+
+	&:hover {
+		background: $purple;
 	}
 }
+
